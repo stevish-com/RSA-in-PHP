@@ -7,7 +7,7 @@
 
 // Please use, distribute, modify, rip-off, sell or destroy this script however you see fit
 // I only ask that you remove my copyright if you modify and re-release this.
-// To make sure you have the genuine, up-to-date version, visit ...
+// To make sure you have the genuine, up-to-date version, visit https://github.com/stevish-com/RSA-in-PHP/
 
 // To use:
 //
@@ -66,7 +66,7 @@ class RSA_Handler {
 
 	function long_base_convert ($numstring, $frombase, $tobase) {
 		//Converts a long integer (passed as a string) to/from any base from 2 to 145
-		$chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-+=!@#$%^*(){[}]|:,.?/`~•¤¶§ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥ƒáíóúñÑªº¿¬½¼¡«»¯ßµ±÷;<>";
+		$chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-+=!@#$%^*(){[}]|:,.?/`~ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßµï¿½ï¿½;<>";
 		$fromstring = substr($chars, 0, $frombase);
 		$tostring = substr($chars, 0, $tobase);
 
