@@ -3,7 +3,6 @@ RSA-in-PHP
 
 RSA dual key encryiption in Pure PHP.
 
-Copyright 2009, Stevish.com (with mad props to te developers of the PEAR RSA extension)
 This script is distributed under the terms of the GNU General Public License (GPL)
 See http://www.gnu.org/licenses/gpl.txt for license details
 
