@@ -8,7 +8,7 @@ See http://www.gnu.org/licenses/gpl.txt for license details
 
 Please use, distribute, modify, rip-off, sell or destroy this script however you see fit
 I only ask that you remove my copyright if you modify and re-release this.
-To make sure you have the genuine, up-to-date version, visit ...
+To make sure you have the genuine, up-to-date version, visit https://github.com/stevish-com/RSA-in-PHP/
 
     Copyright (C) 2009-2014 Stephen Narwold
 
