@@ -25,7 +25,7 @@ class RSA_Handler {
 		foreach($in as $block) {
 			if($block) {
 				$cryptblock = $this->crypt_num($this->txt2num($block), $p, $r);
-				$out .= $this->long_base_convert($cryptblock, 10, 145) . " ";
+				$out .= $this->long_base_convert($cryptblock, 10, 92) . " ";
 			}
 		}
 		return $out;
@@ -37,7 +37,7 @@ class RSA_Handler {
 		$out = '';
 		foreach($in as $block) {
 			if($block) {
-				$block = $this->long_base_convert($block, 145, 10);
+				$block = $this->long_base_convert($block, 92, 10);
 				$out .= $this->num2txt($this->crypt_num($block, $q, $r));
 			}
 		}
@@ -64,8 +64,8 @@ class RSA_Handler {
 	}
 
 	function long_base_convert ($numstring, $frombase, $tobase) {
-		//Converts a long integer (passed as a string) to/from any base from 2 to 145
-		$chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-+=!@#$%^*(){[}]|:,.?/`~������������������������������ܢ��������Ѫ���������ߵ��;<>";
+		//Converts a long integer (passed as a string) to/from any base from 2 to 92
+		$chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-+=!@#$%^*(){[}]|:,.?/`~&';\"\\";
 		$fromstring = substr($chars, 0, $frombase);
 		$tostring = substr($chars, 0, $tobase);
 
